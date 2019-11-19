@@ -1,0 +1,23 @@
+{
+  "name": "aligent/assignment",
+  "description": "Aligent Assignment",
+  "require": {
+    "php": "~7.0.0|~7.1.0",
+    "magento/module-config": "*",
+    "magento/framework": "*"
+  },
+  "type": "magento2-module",
+  "version": "100.0.4",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Aligent\\Assignment\\": ""
+    }
+  }
+}

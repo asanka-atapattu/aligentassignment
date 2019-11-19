@@ -1,0 +1,31 @@
+<form class="form-control" action="<?php echo $block->getFormAction() ?>" method="post" data-hasrequired="* Required Fields" novalidate="novalidate">
+    <fieldset class="fieldset">
+        <legend class="legend"><span>Livechat Form</span></legend><br>
+        <div class="field">
+            <label class="label" for="livechat_license_number"><span>Live Chat License</span></label>
+            <div class="control">
+                <input name="livechat_license_number" id="livechat_license_number" value="" class="input-text" type="text">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label" for="livechat_groups"><span>Live Chat Group</span></label>
+            <div class="control">
+                <input name="livechat_groups" id="livechat_groups" value="" class="input-text" type="text">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label" for="livechat_params"><span>Live Chat Params</span></label>
+            <div class="control">
+                <input name="livechat_params" id="livechat_params" value="" class="input-text" type="text">
+            </div>
+        </div>
+
+    </fieldset>
+    <div class="actions-toolbar">
+        <div class="primary">
+            <button type="submit" title="Submit" class="action submit primary">
+                <span>Submit</span>
+            </button>
+        </div>
+    </div>
+</form>

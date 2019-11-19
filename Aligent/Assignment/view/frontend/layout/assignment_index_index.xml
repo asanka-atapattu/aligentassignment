@@ -1,0 +1,12 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+
+	<head>
+        <title>LiveChat Form</title>
+    </head>
+
+    <body>
+        <referenceContainer name="content">
+            <block class="Aligent\Assignment\Block\Index\Index" name="assignment_index_index" template="Aligent_Assignment::assignment_index_index.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
